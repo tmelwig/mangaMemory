@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestionnaire de Lecture</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://kit.fontawesome.com/b8bd2fe67f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <section class="top-page">
+        <header class="header">
+            <nav class="nav">
+                <li><a href="#A_LIRE"></a>Liste de lecture</li>
+                <li><a href="#LU"></a>Mangas lus</li>
+                <li><a href="#A_VOIR"></a>À voir</li>
+                <li><a href="#Vu"></a>Animés vus</li>
+            </nav>
+        </header>
+        <div class="landing-page">
+            <h1 class="big-title">Manga Memories</h1>
+        </div>
+        <div class="new-manga">
+            <input type="text" id="titre" placeholder="Entrer le titre du livre">
+            <input type="text" id="lien" placeholder="Entrer le lien du livre">
+            <input type="text" id="url" placeholder="Entrer le l'url de l'image">
+            <button id="ajouter"><span>+</span></button>
+            
+        </div>
+    </section>
+    
+    
+    <section class="manga-en-cours">
+        <div class="bloc1" id="bloc1">
+            <h2 class='section-title' id="titre0">Vous n'avez pas de manga !</h2>
+            <h2 class='section-title' id="titre1">Mangas que vous avez à lire</h2>
+            <ul class="aLire" id="aLire">
+                <li>Premier manga
+                    <img src="https://cutt.ly/t1Py9yG" alt="manga-cover">
+                    <i class="fa-sharp fa-solid fa-xmark"></i><i class="fa-sharp fa-solid fa-book"></i><i class="fa-solid fa-check"></i></li>
+                <li>Second manga
+                    <img src="https://cutt.ly/U1SDJGF" alt="manga-cover">
+                    <i class="fa-sharp fa-solid fa-xmark"></i><i class="fa-sharp fa-solid fa-book"></i><i class="fa-solid fa-check"></i></li>
+            </ul>
+            <h2 class='section-title' id="titre1">Animés que vous avez à voir</h2>
+            <ul class="aVoir" id="aVoir">
+                <li>Premier animé<i class="fa-sharp fa-solid fa-xmark"></i><i class="fa-sharp fa-solid fa-book"></i><i class="fa-solid fa-check"></i></li>
+                <li>Second animé<i class="fa-sharp fa-solid fa-xmark"></i><i class="fa-sharp fa-solid fa-book"></i><i class="fa-solid fa-check"></i></li>
+            </ul>
+        </div>
+    </section>
+    <section class="manga-en-cours">
+        <div class="bloc1" id="bloc2">
+            <h2 class='section-title' id="titre3">Mangas que vous avez lu</h2>
+            <ul class="Lu" id="Lu">
+                <li>Premier manga
+                    <img src="https://cutt.ly/t1Py9yG" alt="manga-cover">
+                    <i class="fa-sharp fa-solid fa-xmark"></i><i class="fa-sharp fa-solid fa-book"></i></li>
+                <li>Second manga
+                    <img src="https://cutt.ly/U1SDJGF" alt="manga-cover">
+                    <i class="fa-sharp fa-solid fa-xmark"></i><i class="fa-sharp fa-solid fa-book"></i></li>
+            </ul>
+            <h2 class='section-title' id="titre4">Animés que vous avez vu</h2>
+            <ul class="Vu" id="Vu">
+                <li>Premier animé<i class="fa-sharp fa-solid fa-xmark"></i><i class="fa-sharp fa-solid fa-book"></i></li>
+                <li>Second animé<i class="fa-sharp fa-solid fa-xmark"></i><i class="fa-sharp fa-solid fa-book"></i></li>
+            </ul>
+        </div>
+    </section>    
+   
+    
+    <script src="./js/main.js"></script>
+
+
+</body>
+</html>
