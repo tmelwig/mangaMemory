@@ -26,8 +26,13 @@ nav.nav{
     position: absolute;
     top:20px;
     margin-left: 20px;
-    color:#9ea30f;
 }
+
+nav.nav li a{
+    color:#9ea30f;
+    text-decoration: none;
+}
+
 
 .big-title{
     color:rgb(253, 253, 253);
