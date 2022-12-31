@@ -177,5 +177,5 @@ li i:hover{
     100%{transform : rotate(0deg)}
 }
 #titre1,#titre2,#titre3,#titre4{
-    visibility: visible;
+    visibility: hidden;
 }
