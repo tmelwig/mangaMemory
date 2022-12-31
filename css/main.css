@@ -121,7 +121,7 @@ button span{
     bottom:0;
 
 }
-.aLire img, .Lu img, .aVoir img, .Vu img{
+.aLire img, .aVoir img{
     display: flex;
     position: absolute;
     bottom:80px;
@@ -150,9 +150,9 @@ button span{
     margin: 10px;
     margin-bottom: 20px;
     top:30px;
-    right:135px;
+    right:30px;
     color:#9ea30f;
-    background: none;;
+    background: none;
     bottom:0;
 }
 
@@ -161,7 +161,7 @@ button span{
     margin: 10px;
     margin-bottom: 20px;
     top:30px;
-    right:110px;
+    right:10px;
     color:#9ea30f;
     background: none;;
     bottom:0;
